@@ -188,7 +188,7 @@ class Chao:
         
         
 def desenhar_tela(tela, passaros, canos, chao, pontos):
-    tela.blit(IMAGEM_BACGROUND,(0,0))
+    tela.blit(IMAGEM_BACKGROUND,(0,0))
     
     for passaro in passaros:
         passaro.desenhar(tela)
